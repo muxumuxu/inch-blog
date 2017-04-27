@@ -29,7 +29,8 @@
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
 }
 body { margin: 0; }
 article, aside, details,
@@ -113,6 +114,146 @@ td, th{ padding: 0; }
         url("../fonts/casper-icons.svg?v=1#icons") format("svg");
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+	font-family: 'Radikal';
+	src: url('Radikal-MediumItalic.eot');
+	src: url('Radikal-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('Radikal-MediumItalic.woff') format('woff'),
+		url('Radikal-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Radikal UltraThin';
+	src: url('Radikal-UltraThin.eot');
+	src: url('Radikal-UltraThin.eot?#iefix') format('embedded-opentype'),
+		url('Radikal-UltraThin.woff') format('woff'),
+		url('Radikal-UltraThin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Radikal';
+	src: url('Radikal-Light.eot');
+	src: url('Radikal-Light.eot?#iefix') format('embedded-opentype'),
+		url('Radikal-Light.woff') format('woff'),
+		url('Radikal-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Radikal';
+	src: url('Radikal-BlackItalic.eot');
+	src: url('Radikal-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('Radikal-BlackItalic.woff') format('woff'),
+		url('Radikal-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Radikal';
+	src: url('Radikal-LightItalic.eot');
+	src: url('Radikal-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('Radikal-LightItalic.woff') format('woff'),
+		url('Radikal-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Radikal';
+	src: url('Radikal-Black.eot');
+	src: url('Radikal-Black.eot?#iefix') format('embedded-opentype'),
+		url('Radikal-Black.woff') format('woff'),
+		url('Radikal-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Radikal';
+	src: url('Radikal-Medium.eot');
+	src: url('Radikal-Medium.eot?#iefix') format('embedded-opentype'),
+		url('Radikal-Medium.woff') format('woff'),
+		url('Radikal-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Radikal';
+	src: url('Radikal-BoldItalic.eot');
+	src: url('Radikal-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('Radikal-BoldItalic.woff') format('woff'),
+		url('Radikal-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Radikal';
+	src: url('Radikal-Bold.eot');
+	src: url('Radikal-Bold.eot?#iefix') format('embedded-opentype'),
+		url('Radikal-Bold.woff') format('woff'),
+		url('Radikal-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Radikal';
+	src: url('Radikal.eot');
+	src: url('Radikal.eot?#iefix') format('embedded-opentype'),
+		url('Radikal.woff') format('woff'),
+		url('Radikal.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Radikal UltraThin';
+	src: url('Radikal-UltraThinItalic.eot');
+	src: url('Radikal-UltraThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('Radikal-UltraThinItalic.woff') format('woff'),
+		url('Radikal-UltraThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Radikal';
+	src: url('Radikal-ThinItalic.eot');
+	src: url('Radikal-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('Radikal-ThinItalic.woff') format('woff'),
+		url('Radikal-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Radikal';
+	src: url('Radikal-Thin.eot');
+	src: url('Radikal-Thin.eot?#iefix') format('embedded-opentype'),
+		url('Radikal-Thin.woff') format('woff'),
+		url('Radikal-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Radikal';
+	src: url('Radikal-Italic.eot');
+	src: url('Radikal-Italic.eot?#iefix') format('embedded-opentype'),
+		url('Radikal-Italic.woff') format('woff'),
+		url('Radikal-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
 }
 
 /* Apply these base styles to all icons */
@@ -582,11 +723,10 @@ body.nav-opened .site-wrapper {
     position: relative;
     display: table;
     width: 100%;
-    height: 100vh;
+    height: 320px;
     margin-bottom: 5rem;
     text-align: center;
-    background: #222 no-repeat center center;
-    background-size: cover;
+    background: #EAF9EC no-repeat center center;
     overflow: hidden;
 }
 
@@ -793,7 +933,7 @@ body.nav-opened .nav {
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
-    display: block;
+    display: none;
     position: absolute;
     z-index: 100;
     bottom: 45px;
@@ -831,7 +971,7 @@ body.nav-opened .nav {
     bottom: 0;
     left: 50%;
     margin-left: -75px;
-    background: radial-gradient(ellipse at center,  rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%);
+    /*background: radial-gradient(ellipse at center,  rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%);*/
 }
 
 /* Hide when there's no cover image or on page2+ */
@@ -855,7 +995,7 @@ body.nav-opened .nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    height: 38px;
+    height: 55px;
     padding: 1px 0 5px 0;
     width: auto;
 }
@@ -868,8 +1008,6 @@ body.nav-opened .nav {
     float: right;
     height: 38px;
     padding: 0 15px;
-    border-style: solid;
-    border-width: 1px;
     opacity: 1;
     text-align: center;
     font-size: 12px;
@@ -887,7 +1025,6 @@ body.nav-opened .nav {
     top: 1px;
 }
 .menu-button:hover {
-    background: #fff;
 }
 .menu-button:focus {
     outline: 0;
@@ -895,8 +1032,7 @@ body.nav-opened .nav {
 
 /* When the navigation is closed */
 .nav-closed .menu-button {
-    color: #fff;
-    border-color: rgba(255, 255, 255, 0.6);
+    color: black;
 }
 .nav-closed .menu-button:hover {
     color: #222;
@@ -904,12 +1040,9 @@ body.nav-opened .nav {
 
 /* When the navigation is closed and there is no cover image */
 .nav-closed .no-cover .menu-button {
-    border-color: #BFC8CD;
-    color: #9EABB3;
+    color: black;
 }
 .nav-closed .no-cover .menu-button:hover {
-    border-color: #555;
-    color: #555;
 }
 
 /* When the navigation is opened */
@@ -937,7 +1070,6 @@ body.nav-opened .nav {
     right: 0;
     height: 70px;
     border: none;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
 }
 .no-cover .main-nav.overlay {
     background: none;
@@ -945,28 +1077,33 @@ body.nav-opened .nav {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
-    margin: 10px 0 10px 0;
-    font-size: 5rem;
+    margin: 10px 0 0 0;
+    font-size: 46px;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
-    color: #fff;
+    font-family: 'Radikal', sans-serif;
+    color: black;
+}
+
+.page-title span {
+  font-weight: 400;
 }
 
 .page-description {
     margin: 0;
-    font-size: 2rem;
+    font-size: 22px;
     line-height: 1.5em;
-    font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.01rem;
-    color: rgba(255,255,255,0.8);
+    color: #3AAE54;
 }
 
 .no-cover.main-header {
     min-height: 160px;
     max-height: 40vh;
-    background: #f5f8fa;
+    background: #F0FDF2;
+    box-shadow: 0 1px 0 0 rgba(58,173,84,0.10);
 }
 
 .no-cover .page-title {
@@ -974,7 +1111,7 @@ body.nav-opened .nav {
 }
 
 .no-cover .page-description {
-    color: rgba(0,0,0,0.5);
+    color: #3AAE54;
 }
 
 /* Add subtle load-in animation for content on the home page */
@@ -1935,7 +2072,7 @@ body.page-template .post-title {
     }
 
     .blog-logo img {
-        height: 30px;
+        height: 55px;
     }
 
     .menu-button {
