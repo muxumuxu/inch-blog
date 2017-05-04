@@ -1019,6 +1019,7 @@ body.nav-opened .nav {
     white-space: nowrap;
     border-radius: 3px;
     transition: all 0.5s ease;
+    display: none;
 }
 .menu-button:before {
     font-size: 12px;
